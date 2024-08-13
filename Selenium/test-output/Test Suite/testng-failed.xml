@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test name="Test Case(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="testNG.ParameterAnnotation">
+        <methods>
+          <include name="Parameter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.ParameterAnnotation -->
+    </classes>
+  </test> <!-- Test Case(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
